@@ -21,7 +21,7 @@ print(name.title()) #Pone en mayúsculas el inicio de cada palabra en una cadena
 print(name.upper()) #Pone en mayúsculas a toda la cadena
 print(name.lower()) #Pone en minúsculas a toda la cadena
 print(name.capitalize()) #Pone en mayúscula solo la primera letra de la cadena
-
+    
 #%%
 #Imaginemos que queremos guardar el apeido y el nombre en variables separadas
 first_name="uriel"
