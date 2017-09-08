@@ -2,7 +2,11 @@
 """
 Created on Fri Jun 30 11:41:32 2017
 
-@author: Adriana
+Autor: Adriana F. Chávez De la Peña
+Curso: 'Un laboratorio virtual en Python para modelos del comportamiento'
+	 Introducción a python.
+		
+@author: adrifelcha@gmail.com
 """
 
 #########################################
