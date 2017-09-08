@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """
 GRAFICADORES CON SLIDER
-
 Created on Tue Jun 27 23:02:50 2017
 @author: Adriana Felisa
+Curso: 'Un laboratorio virtual en Python para modelos del comportamiento'
+	 Introducción a python.
 
 #OBJETIVO: Trazar una gráfica de barras para dos valores (dos barras) que se actualice con un slider
 #NOTA: Recordemos que se recomienda correr este codigo con la configuración:
@@ -28,10 +29,10 @@ fig, ax = plt.subplots()                           #Ampliamos nuestro espacio pa
 plt.subplots_adjust(left=0.1, bottom=0.25)         #Especificamos los márgenes de nuestras figuras respecto de la ventana
 
 """Dibujamos BARRAS"""                
-b_Ana = ax.bar(0.3, Alumnos[0], facecolor='#48B21E', width=0.5)      #Dibujamos la primer barra para Ana
-b_Pepe = ax.bar(1, Alumnos[1], facecolor='#1E1EB2', width=0.5)        #Dibujamos una segunda barra para Pepe
+b_Ana = ax.bar(0.4, Alumnos[0], facecolor='#48B21E', width=0.3)      #Dibujamos la primer barra para Ana
+b_Pepe = ax.bar(1, Alumnos[1], facecolor='#1E1EB2', width=0.3)        #Dibujamos una segunda barra para Pepe
         #La función bar (Barra) tiene los siguientes argumentos:  (Ubicación en x, valor a graficar, color, ancho)
-ax.axis([0.1, 1.7, 0.0, 10.15])                                   #Especificamos las dimensiones de nuestra gráfica
+ax.axis([0.01, 1.4, 0.0, 10.15])                                   #Especificamos las dimensiones de nuestra gráfica
      #La función axis (Dimensión de los ejes) tiene los siguientes argymentos:
      #los primeros dos valores corresponden al rango abarcado en el eje X y los ultimos fod, en Y.
 
@@ -41,8 +42,8 @@ ax.set_xlabel('Casos')                  #Damos un nombre al eje de las abscisas
 ax.set_ylabel('Frecuencia')             #Damos un nombre al eje de las ordenadas
 
 """Añadimos un texto con el valor de cada barra"""
-ax.text(0.55, Alumnos[0]+0.02, '%.2f' %Alumnos[0], ha='center', va='bottom') #Escribimos el valor correspondiente a la barra 'Ana'
-ax.text(1.25, Alumnos[1]+0.02, '%.2f' %Alumnos[1], ha='center', va='bottom') #Escribimos el valor correspondiente a la barra 'Pepe'
+ax.text(0.4, Alumnos[0]+0.02, '%.2f' %Alumnos[0], ha='center', va='bottom') #Escribimos el valor correspondiente a la barra 'Ana'
+ax.text(1, Alumnos[1]+0.02, '%.2f' %Alumnos[1], ha='center', va='bottom') #Escribimos el valor correspondiente a la barra 'Pepe'
     #La función text tiene los siguientes argumentos
             #(Coordenadas x, coordenadas y, valor a pegar, posición horizontal, posición vertical)
             #'%.2f'indica que sólo pegue los primeros dos valores flotantes de la variable identificada con un % (%Alumnos)
