@@ -41,8 +41,8 @@ ax.set_xlabel('Casos')                  #Damos un nombre al eje de las abscisas
 ax.set_ylabel('Frecuencia')             #Damos un nombre al eje de las ordenadas
 
 """Añadimos un texto con el valor de cada barra"""
-ax.text(0.4, Alumnos[0]+0.02, '%.2f' %Alumnos[0], ha='center', va='bottom') #Escribimos el valor correspondiente a la barra 'Ana'
-ax.text(1, Alumnos[1]+0.02, '%.2f' %Alumnos[1], ha='center', va='bottom') #Escribimos el valor correspondiente a la barra 'Pepe'
+ax.text(0.55, Alumnos[0]+0.02, '%.2f' %Alumnos[0], ha='center', va='bottom') #Escribimos el valor correspondiente a la barra 'Ana'
+ax.text(1.25, Alumnos[1]+0.02, '%.2f' %Alumnos[1], ha='center', va='bottom') #Escribimos el valor correspondiente a la barra 'Pepe'
     #La función text tiene los siguientes argumentos
             #(Coordenadas x, coordenadas y, valor a pegar, posición horizontal, posición vertical)
             #'%.2f'indica que sólo pegue los primeros dos valores flotantes de la variable identificada con un % (%Alumnos)
