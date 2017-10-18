@@ -7,6 +7,7 @@ Curso: 'Un laboratorio virtual en Python para modelos del comportamiento'
 """
 """ /////////////////////   STRINGS    /////////////////////// """
 
+
 #%%
 """ Variables y sus asignaciones"""
 print("Hello python world") #Utilizando la función print()
@@ -163,7 +164,7 @@ print(meses)
 #%%
 numeros = ["dos","tres","cuatro","cinco"]
 numeros.append("uno")
-print(meses)
+print(numeros)
 #%%
 numeros = ["dos","tres","cuatro","cinco"]
 numeros.insert(0,"uno")
